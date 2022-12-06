@@ -14,4 +14,8 @@ public class LibraryController {
     public String Adminsignup(){
         return "Welcome to my Admin Signup page";
     }
+    @PostMapping("/entry")
+    public String Booksentry(){
+        return "Welcome to my Books Entry page";
+    }
 }
